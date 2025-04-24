@@ -17,7 +17,7 @@
         </form>
 
         <?php 
-        $host = 'localhost';
+        $host = 'localhost'
         $user='root';
         $pass='';
         $dbname='moja_baza';
