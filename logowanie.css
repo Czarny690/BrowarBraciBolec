@@ -1,0 +1,102 @@
+:root {
+    --zielony-tlo: #006124;
+    --zielony-header: #013d17;
+    --pomarancz-akcent: #9e4f00;
+  
+    --jasna-zielen: #c7eacb;
+    --jasny-pomarancz: #f8c88f;
+  
+    --tekst-bialy: #ffffff;
+    --tekst-ciemny: #1e1e1e;
+  }
+
+body {
+    display: flex;
+    background-color: var(--jasny-pomarancz);
+    padding-top: 3%;
+}
+main {
+    margin: auto;
+    background-color: var(--jasna-zielen);
+    width: 40%;
+    height: 80vh;
+    outline: var(--zielony-header) 1vh solid;
+    font-family: 'Courier New', monospace;
+    box-shadow: inset 0 0 0.5rem #000000;
+    padding: 2rem;
+    color: var(--tekst-ciemny);
+}
+
+form p {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 97.7%;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    border: 2px solid #000;
+    background-color: #fff;
+    color: #000;
+    box-shadow: inset 1px 1px 0 #ccc;
+}
+input[type="password"] {
+    margin-bottom: 6rem;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 0.6rem;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    background: linear-gradient(to bottom, #f0f0f0, #d0d0d0);
+    border: 2px solid #000;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #ffffff, #bbbbbb);
+}
+
+form {
+    border: 3px double var(--zielony-header);
+    padding: 1rem;
+    padding-bottom: 3rem;
+    background-color: rgb(240, 226, 205);
+}
+img {
+    float: right;
+    margin-right: 1%;
+    margin-top: 12%;
+    width: 25%;
+    outline: var(--zielony-header) 1vh solid;
+}
+#komunikat {
+    position: absolute;
+    color: rgb(194, 13, 13); 
+    font-weight: bold; 
+    margin-top: 27vh;
+    margin-left: 2vh;
+    font-size: 3vh;
+}
+#komunikat2 {
+    position: absolute;
+    color: rgb(194, 13, 13); 
+    font-weight: bold; 
+    margin-top: 18vh;
+    margin-left: 20vh;
+    font-size: 3vh;
+}
+#logo {
+    float: right;
+    margin-right: 1%;
+    margin-top: 6%;
+    width: 20%;
+    outline: var(--zielony-header) 1vh solid;
+}

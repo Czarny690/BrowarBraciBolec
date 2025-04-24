@@ -1,0 +1,16 @@
+:root {
+    --zielony-tlo: #28a054;
+    --zielony-header: #013d17;
+    --pomarancz-akcent: #9e4f00;
+  
+    --jasna-zielen: #c7eacb;
+    --jasny-pomarancz: #f8c88f;
+  
+    --tekst-bialy: #ffffff;
+    --tekst-ciemny: #1e1e1e;
+  }
+
+
+body {
+    background-color: var(--zielony-tlo);
+}
