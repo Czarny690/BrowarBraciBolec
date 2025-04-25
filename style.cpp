@@ -1,5 +1,45 @@
 body {
-  margin: 0;
-  background-color: #006124;
-  font-size: 25px;
+    margin: 0;
+    background-color: #006124;
+    font-size: 25px;
+
 }
+.menu {
+    position: fixed;
+    height: 100%;
+    left: 0;
+    width: 40px;
+    background-color: #013d17;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    z-index: 1000;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu:hover {
+    width: 200px;
+  }
+  
+  .menu a {
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.2s ease 0.1s;
+  }
+  
+  .menu:hover a {
+    opacity: 1;
+  }
+  
+  .menu a:hover {
+    background-color: #013d17;
+  }
+  
+  
