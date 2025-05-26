@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/strona.css">
+    <style>
+        body {
+            margin: 0;
+            background-color: #2F1D05;
+        }
+        #sekcje-container {
+            display: flex;
+            width: 100%;
+            height: 100vh; /* przykładowa wysokość */
+        }
+
+        .kutas {
+            flex: 1; /* każdy zajmuje 1/3 szerokości */
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #sekcja1 {
+            background-color: #8D6446;
+        }
+
+        #sekcja2 {
+            background-color: #704E2B;
+        }
+
+        #sekcja3 {
+            background-color: #1D1306;
+        }
+        footer {
+            background-color: #2F1D05;
+            height: 5vh;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: white;
+        }
+        #prostokat1 {
+            width: 50vh;
+            height: 18vh;
+            background-color: #282D25;
+            position: absolute;
+            left: 10vh;
+            padding: 1vh;
+            top: 18vh;
+            color: white;
+        }
+        #prostokat1 p {
+            margin-bottom: auto;
+            margin-top: auto;
+        }
+        #prostokat2 {
+            width: 50vh;
+            height: 18vh;
+            background-color: #282D25;
+            position: absolute;
+            left: 35vh;
+            padding: 1vh;
+            top: 45vh;
+            color: white;
+        }
+        #prostokat2 p {
+            margin-bottom: auto;
+            margin-top: auto;
+        }
+        #prostokat3 {
+            width: 50vh;
+            height: 21vh;
+            background-color: #282D25;
+            position: absolute;
+            left: 12vh;
+            padding: 1vh;
+            top: 70vh;
+            color: white;
+        }
+        #prostokat3 p {
+            margin-bottom: auto;
+            margin-top: auto;
+        }
+        .prostokaty {
+            border: 5px solid #3F2B2B;
+        }
+    </style>
+</head>
+<body class="bodi1">
+    <aside class="menu">
+        <nav>
+          <a href="strona.php">
+            <img src="./images/glowna.png" alt="Główna ikona">
+            <span>Główna</span>
+          </a>
+          <a href="czat.php">
+            <img src="./images/czatt.png" alt="Czat ikona">
+            <span>Czat</span>
+          </a>
+          <a href="pdw">
+            <img src="./images/galeria.png" alt="Galeria ikona">
+            <span>Galeria</span>
+          </a>
+          <a href="pdw">
+            <img src="./images/historia.png" alt="Historia ikona">
+            <span>Historia firmy</span>
+          </a>
+          <a href="ustawienia.php">
+            <img src="./images/ustawienia.png" alt="Ustawienia ikona">
+            <span>Ustawienia</span>
+          </a>
+          <form method="post" class="wylogowywanie">
+            <button type="submit" name="wyloguj" id="wyloguj">
+            <img src="./images/wyloguj.png" alt="Wyloguj ikona">
+            <span>Wyloguj się</span>
+            </button>
+        </form>
+
+        </nav>
+      </aside>
+        <section id="prostokat1" class="prostokaty">
+            <p>Nie jesteśmy zwykłym sklepem. U nas każda butelka ma swoją historię, a każda etykieta opowiada coś więcej niż tylko zawartość alkoholu. Tworzymy przestrzeń dla ludzi, którzy w piwie widzą coś więcej – smak podróży, chwilę wytchnienia, rozmowy przy stole. Niezależnie, czy jesteś fanem lagera, miłośnikiem IPA, czy poszukiwaczem piwnych dziwactw – znajdziesz tu coś dla siebie.</p>
+        </section>
+        <section id="prostokat2" class="prostokaty">
+            <p>Są miejsca w sieci, gdzie ludzie naprawdę słuchają. Nasze forum to jedno z nich. Pogadaj z domowymi piwowarami, zapytaj o najlepsze stouty, poznaj ludzi, którzy tak jak Ty nie traktują piwa jak produktu – tylko jak pasję. Od degustacji w małym miasteczku po relacje z piwnych festiwali – to wszystko dzieje się tutaj. Na spokojnie, bez spiny, z piwem w ręku.</p>
+        </section>
+        <section id="prostokat3" class="prostokaty">
+            <p>Nie jesteśmy kolejnym sklepem z tysiącem etykiet i żadną duszą. Jesteśmy pasjonatami – takimi jak Ty. Zaczynaliśmy od domowego warzenia, ślęczenia nad recepturami i szukania tego jedynego smaku. Dziś tworzymy miejsce, które łączy piwną pasję z dobrą atmosferą. U nas znajdziesz piwa, których nie ma na półkach marketów, historie, które warto poznać, i ludzi, z którymi warto pogadać. Bo piwo to nie tylko napój. To kultura, klimat i wspólnota.</p>
+        </section>
+    <section id="sekcje-container">
+        <section id="sekcja1" class="kutas">
+
+        </section>
+        <section id="sekcja2" class="kutas">
+
+        </section>
+        <section id="sekcja3" class="kutas">
+
+        </section>
+    </section>
+    <footer>
+        <p>Kurwa artur holek to pies</p>
+    </footer>
+</body>
+</html>
